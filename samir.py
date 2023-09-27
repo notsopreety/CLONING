@@ -1,9 +1,3 @@
-#decode by : JUTTBRAND
-#coding=utf-8
-#created by hamii
-#team name hbf
-#tottaly written by hamid Khawaja
-#!/usr/bin/python3
 #---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -18,7 +12,7 @@ try:
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
 except ModuleNotFoundError:
     os.system('pip install --upgrade pip && pip install requests futures==2 > /dev/null')
-    os.system('python HAMII.py')
+    os.system('python samir.py')
 class jalan:
     def __init__(self, z):
         for e in z + "\n":
